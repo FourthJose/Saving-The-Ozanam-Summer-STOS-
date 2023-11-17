@@ -1,0 +1,1763 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'es' Physical Memory: 15663 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/User/Desktop/STOSv2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55797
+Successfully changed project path to: C:/Users/User/Desktop/STOSv2
+C:/Users/User/Desktop/STOSv2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24976] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 2365009491 [EditorId] 2365009491 [Version] 1048832 [Id] WindowsEditor(7,FOURTHJOSE-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24976] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 2365009491 [EditorId] 2365009491 [Version] 1048832 [Id] WindowsEditor(7,FOURTHJOSE-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 10.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/STOSv2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7831 MB
+    Driver:   31.0.21905.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007207 seconds.
+- Loaded All Assemblies, in  0.456 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.309 seconds
+Domain Reload Profiling: 763ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (310ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 5.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 1651ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (484ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (675ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (217.6 KB). Loaded Objects now: 4592.
+Memory consumption went from 143.7 MB to 143.5 MB.
+Total: 4.745200 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.127700 ms MarkObjects: 4.131600 ms  DeleteObjects: 0.194400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32001.600280 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaJumping.png
+  artifactKey: Guid(24ac81a4ed1bbc946991b945d268c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaJumping.png using Guid(24ac81a4ed1bbc946991b945d268c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f1c44e06d3b1946c7f3c23aa83fe59') in 0.075352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/tutorial/characters/enemy001/enemyJumping.png
+  artifactKey: Guid(3f8a62f8dd31bae46aa3245a81537a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/enemy001/enemyJumping.png using Guid(3f8a62f8dd31bae46aa3245a81537a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3a118b4562bad3d9b25912570d4740') in 0.017001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaUI.png
+  artifactKey: Guid(23bd43c8fe1812544b3a489688e4b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaUI.png using Guid(23bd43c8fe1812544b3a489688e4b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6886ee233933733c216f09b37459a59a') in 0.017515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaIdle.png
+  artifactKey: Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaIdle.png using Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1195647b0eb4663931b0e75186884b5e') in 0.019430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/tutorial/characters/enemy001/enemyRunning.png
+  artifactKey: Guid(6bf49c0ef6de1834bbbfc3f2abb8c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/enemy001/enemyRunning.png using Guid(6bf49c0ef6de1834bbbfc3f2abb8c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef69f84928c58d3e824304c77bfd2b5') in 0.016446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tutorial/characters/playerLuna/pixil-frame-0 (72).png
+  artifactKey: Guid(8dba2276cf6bee942b4642aa22dc7c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/pixil-frame-0 (72).png using Guid(8dba2276cf6bee942b4642aa22dc7c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba42829d38db678de75839c42cbb8560') in 0.018892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.386064 seconds.
+  path: Assets/tutorial/characters/teacherPatricia/NPC.physicsMaterial2D
+  artifactKey: Guid(90d74839bc194ae489c6d24363bb393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia/NPC.physicsMaterial2D using Guid(90d74839bc194ae489c6d24363bb393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f664c4d50d675ba0789c1cca952dfcdf') in 0.000878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006121 seconds.
+  path: Assets/tutorial/characters/teacherPatricia/patriciaIdle.png
+  artifactKey: Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia/patriciaIdle.png using Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e81c6ab67c8ede200b40cac080aeb9') in 0.015425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.791268 seconds.
+  path: Assets/tutorial/scenario/background.png
+  artifactKey: Guid(76492c74988acf64fb6474aa28a5ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/background.png using Guid(76492c74988acf64fb6474aa28a5ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21226606ae0d61daddc7d8365a98b342') in 0.015338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004164 seconds.
+  path: Assets/tutorial/scenario/chairflip.png
+  artifactKey: Guid(43fa1ad38174b864fa5aa16c60f1e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/chairflip.png using Guid(43fa1ad38174b864fa5aa16c60f1e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5847d3cce2cd04f0c6c986a51e8a54') in 0.017558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/tutorial/scenario/highschoolNature.png
+  artifactKey: Guid(06196e0013ebb19428eac64d4fe94fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/highschoolNature.png using Guid(06196e0013ebb19428eac64d4fe94fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4e95ba1f8f63fd6927eb32181e95c9') in 0.018645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tutorial/scenario/terrainPhysics.physicsMaterial2D
+  artifactKey: Guid(fd1a85bd7bda04942b0c2d270d08ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/terrainPhysics.physicsMaterial2D using Guid(fd1a85bd7bda04942b0c2d270d08ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba9e22fe6c2395d2ec8f2be548c3283') in 0.001052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.836137 seconds.
+  path: Assets/tutorial/scenario/palettes
+  artifactKey: Guid(cfcf4c790d798184db75c613e922099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes using Guid(cfcf4c790d798184db75c613e922099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fb6e688e3c246f931154b9ad658de9') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055468 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria1_0.asset
+  artifactKey: Guid(c5943628bb68f4544934510d57de00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria1_0.asset using Guid(c5943628bb68f4544934510d57de00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a6108b349e1b634d65e19d5d8fe6b0') in 0.005050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002681 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria1_1.asset
+  artifactKey: Guid(0ae76d08e76f5a742b73203d1b8021c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria1_1.asset using Guid(0ae76d08e76f5a742b73203d1b8021c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df638e096666dbe655d4b0dc8bd325') in 0.001502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005163 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria1_2.asset
+  artifactKey: Guid(1c74c5f923d729e4cb5015945970400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria1_2.asset using Guid(1c74c5f923d729e4cb5015945970400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbea501d52322810e86bc13549bc7f35') in 0.001621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003422 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_0.asset
+  artifactKey: Guid(ce09cf6257bec904384f69020c793bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_0.asset using Guid(ce09cf6257bec904384f69020c793bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0779bc4a5ba1ff95935dc4a9c603c54') in 0.001509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003262 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_1.asset
+  artifactKey: Guid(3e3f375a67b6531428dbd2abff51d634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_1.asset using Guid(3e3f375a67b6531428dbd2abff51d634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a66e11bb5e772bc8d9031c7bed59abd') in 0.001673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003438 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_2.asset
+  artifactKey: Guid(3460b8202bfbfd748beb37cf74b9cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_2.asset using Guid(3460b8202bfbfd748beb37cf74b9cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9977299e722caf5fdd103b5df7aacf') in 0.001573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003161 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_3.asset
+  artifactKey: Guid(18d4ad45ae51b7946aa85334973c8122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_3.asset using Guid(18d4ad45ae51b7946aa85334973c8122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd064a3dcae5cccc71d6eb8c6a3dcb900') in 0.001369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003867 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_4.asset
+  artifactKey: Guid(b9e680ffe61d71f4287e9ba45037095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_4.asset using Guid(b9e680ffe61d71f4287e9ba45037095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd78154b5fe286b4bd889ce1d239aa63') in 0.001655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_5.asset
+  artifactKey: Guid(f4df6a395975ffe48ade4131a3e1b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_5.asset using Guid(f4df6a395975ffe48ade4131a3e1b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eab299f3921655c932fef15e6c2c6d0') in 0.001417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003486 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_6.asset
+  artifactKey: Guid(aaedbda8d8c52ea44b1ce49e600efc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_6.asset using Guid(aaedbda8d8c52ea44b1ce49e600efc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb7f217e234ce1fc36be69e469515fb') in 0.001966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003221 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_7.asset
+  artifactKey: Guid(02a62228b5cb9ea46be103290a960719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_7.asset using Guid(02a62228b5cb9ea46be103290a960719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dda938c17d996de0bdb01751e608c7') in 0.001691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003435 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteria2_8.asset
+  artifactKey: Guid(8a960e7f706c3ea47a9ff8dc21efc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteria2_8.asset using Guid(8a960e7f706c3ea47a9ff8dc21efc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7d7c812b4519e986d00d13996a98f9') in 0.001713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003461 seconds.
+  path: Assets/tutorial/scenario/palettes/cafeteriaFloor.prefab
+  artifactKey: Guid(6922d3b902559404f9253d1ffd8e73c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/cafeteriaFloor.prefab using Guid(6922d3b902559404f9253d1ffd8e73c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2618aea1f8347c774289c29f49214a9') in 0.032868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_4.asset
+  artifactKey: Guid(0e97639b2d575d24fade448b4b835e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_4.asset using Guid(0e97639b2d575d24fade448b4b835e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94858804bf47be627398a9194e5a0540') in 0.001785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002165 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_5.asset
+  artifactKey: Guid(2c3498ae65bb28043b073ac770d2cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_5.asset using Guid(2c3498ae65bb28043b073ac770d2cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a9e275e9f5dace1f5506f3c13b6bf3') in 0.001869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001391 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_6.asset
+  artifactKey: Guid(56e147284091b9547937cf6e6fac03b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_6.asset using Guid(56e147284091b9547937cf6e6fac03b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68ecc8b61d8a0dad7cf279859cc7268') in 0.001746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001742 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_7.asset
+  artifactKey: Guid(cc27c3f0d374d3740b31d59f36f3d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_7.asset using Guid(cc27c3f0d374d3740b31d59f36f3d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5ff88764d2fc92789da7d33b6c5e44') in 0.001697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001497 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_8.asset
+  artifactKey: Guid(76328fab947286e47a6b142935a9aa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_8.asset using Guid(76328fab947286e47a6b142935a9aa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32296baaa1b6706846ab2f5ddf44aadd') in 0.001740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001629 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_9.asset
+  artifactKey: Guid(8a81684d7853d58458da0dcce9b11e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_9.asset using Guid(8a81684d7853d58458da0dcce9b11e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9383dccbbb1679689860a820fb04fe62') in 0.001556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001905 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_10.asset
+  artifactKey: Guid(c65b372f210276748ad13806b19044b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_10.asset using Guid(c65b372f210276748ad13806b19044b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e4fa26fcd069c1f2387b888aa29750') in 0.001475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001799 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_11.asset
+  artifactKey: Guid(a5b61cf668f1e694e8190bc796da4da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_11.asset using Guid(a5b61cf668f1e694e8190bc796da4da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6e387813a21e0d1c1c47103852a81a') in 0.001566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_12.asset
+  artifactKey: Guid(625c5a5e057381c4eb49ad321a288de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_12.asset using Guid(625c5a5e057381c4eb49ad321a288de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6fce3550f0c090bc50cf6a208f81ab') in 0.001515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001890 seconds.
+  path: Assets/tutorial/scenario/palettes/combatTest_13.asset
+  artifactKey: Guid(346b212a3750f004b879c091b3fbd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/combatTest_13.asset using Guid(346b212a3750f004b879c091b3fbd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bed489f012fb727c9fe694b985c5336') in 0.001329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001815 seconds.
+  path: Assets/tutorial/scenario/palettes/deco1_0.asset
+  artifactKey: Guid(6b0ba08938567fe4bb7d51871a86dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/deco1_0.asset using Guid(6b0ba08938567fe4bb7d51871a86dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165b824f65882e3f28bd3133646d8d75') in 0.001339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002711 seconds.
+  path: Assets/tutorial/scenario/palettes/deco1_1.asset
+  artifactKey: Guid(828f7bbf0130cb342ab0922534fc45fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/deco1_1.asset using Guid(828f7bbf0130cb342ab0922534fc45fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a09eb7fd9aa8b8a96a2e8e759008f28') in 0.002690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001509 seconds.
+  path: Assets/tutorial/scenario/palettes/deco2_0.asset
+  artifactKey: Guid(31a95d5c09df2e448983d38bb05cce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/deco2_0.asset using Guid(31a95d5c09df2e448983d38bb05cce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95e89d0b2e174edda9247259121f71d') in 0.001263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002609 seconds.
+  path: Assets/tutorial/scenario/palettes/deco2_1.asset
+  artifactKey: Guid(483d67000ef4bf74e919dc2e684e28bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/deco2_1.asset using Guid(483d67000ef4bf74e919dc2e684e28bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7b528147f3b6f098eff29191b0c8a1') in 0.001335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002397 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature.prefab
+  artifactKey: Guid(7cff65767afd3624e9fc3688ce2e56da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature.prefab using Guid(7cff65767afd3624e9fc3688ce2e56da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942a53ea91a182ddb8665f5a25174079') in 0.013594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_2.asset
+  artifactKey: Guid(e148b6c69a25d354992d60cd3234c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_2.asset using Guid(e148b6c69a25d354992d60cd3234c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b54a752b824cfd6179fae05b504fe9') in 0.001659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002679 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_3.asset
+  artifactKey: Guid(bbbc23492e2e64e4681f78e00586d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_3.asset using Guid(bbbc23492e2e64e4681f78e00586d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb4d480fa406ef15286356cd105f7a3') in 0.001559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002500 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_4.asset
+  artifactKey: Guid(a3c21c6b65bb1e947a95777db1d12a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_4.asset using Guid(a3c21c6b65bb1e947a95777db1d12a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af00aa2a03ab8b8826f9db4a6e55e604') in 0.001391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002716 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_5.asset
+  artifactKey: Guid(daa450190cf90764db670d1eaa746143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_5.asset using Guid(daa450190cf90764db670d1eaa746143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa947a1daac330372970d18fe7c53c5') in 0.001318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002516 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_6.asset
+  artifactKey: Guid(b605a07014e29f8468840ecf1eeec6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_6.asset using Guid(b605a07014e29f8468840ecf1eeec6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faab7dc8dd8147c32c7fedfe2b166a9f') in 0.001645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002612 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_7.asset
+  artifactKey: Guid(ce83db3435dd0c3449eee703bea296f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_7.asset using Guid(ce83db3435dd0c3449eee703bea296f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd31bea5f5df3f9fb6c5a98e38a1bbc') in 0.001307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.388707 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_8.asset
+  artifactKey: Guid(9797ca531e227d940acab63a9bec7c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_8.asset using Guid(9797ca531e227d940acab63a9bec7c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c24ecd31effee7a56fb8104f09e3d4') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002206 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_9.asset
+  artifactKey: Guid(a16fc576ccf1fa14ba3fc0c6f9245764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_9.asset using Guid(a16fc576ccf1fa14ba3fc0c6f9245764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2fa743b9295e6f4a94e2d20400ce07') in 0.001322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002733 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_10.asset
+  artifactKey: Guid(25fecc5f3f3233042a59571f4f197d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_10.asset using Guid(25fecc5f3f3233042a59571f4f197d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0f42f021769dfef408f60f6d974202') in 0.001430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002570 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_11.asset
+  artifactKey: Guid(d55e419396268f04cab0637fd7830fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_11.asset using Guid(d55e419396268f04cab0637fd7830fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7a55b0a64dd18ae45f64a4db3d2d62') in 0.001501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002464 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_12.asset
+  artifactKey: Guid(78cbe22452be5bc4baac4fd16308918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_12.asset using Guid(78cbe22452be5bc4baac4fd16308918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975d3f73ec9c54fd4503c3948fa329f9') in 0.001353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002651 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_13.asset
+  artifactKey: Guid(dbe5e470a9019cc4499c2831a62c73d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_13.asset using Guid(dbe5e470a9019cc4499c2831a62c73d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8384ba4cff3bb0199d970c9085da6a8') in 0.001329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002643 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_14.asset
+  artifactKey: Guid(d365bdcc306ce9042ace3876e40ae2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_14.asset using Guid(d365bdcc306ce9042ace3876e40ae2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad9c64cd900062e500f64d202f90eec') in 0.001498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002649 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_15.asset
+  artifactKey: Guid(10b625b8b0d32704ab7521913cffa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_15.asset using Guid(10b625b8b0d32704ab7521913cffa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5030449d94e0d87ef17eacc413c130ac') in 0.001360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002559 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolNature_16.asset
+  artifactKey: Guid(05d605724dcc8ab44b9b491d533356b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolNature_16.asset using Guid(05d605724dcc8ab44b9b491d533356b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15f7bc29b7e526e2cd0736add323a9f') in 0.001339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002559 seconds.
+  path: Assets/tutorial/scenario/palettes/highschoolWalls.prefab
+  artifactKey: Guid(8fd8a1cc1c00d73459b7a8ffbbb5634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/highschoolWalls.prefab using Guid(8fd8a1cc1c00d73459b7a8ffbbb5634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0068fcbce4e5a79b2cf157fa1a9aba9b') in 0.014330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_2.asset
+  artifactKey: Guid(fb49539126eb91149b3e7fe8a3dff3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_2.asset using Guid(fb49539126eb91149b3e7fe8a3dff3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5946563e4a15ac0900ff2c42750ad3') in 0.001697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002636 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_3.asset
+  artifactKey: Guid(cc1bd1054100e2845be5d12dfd8d61ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_3.asset using Guid(cc1bd1054100e2845be5d12dfd8d61ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05385749d03714fe821e59438a63d7d') in 0.001491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.025039 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_4.asset
+  artifactKey: Guid(1413b8b5e020eaa478a3b18a04001efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_4.asset using Guid(1413b8b5e020eaa478a3b18a04001efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8af3d855448aa43dfc909c283ebfd9') in 0.001778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002485 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_5.asset
+  artifactKey: Guid(c2414cae24b351b4ab58b1c5f657e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_5.asset using Guid(c2414cae24b351b4ab58b1c5f657e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7f95ac138f789ec791bd5a14cb2a9e') in 0.001599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002656 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_6.asset
+  artifactKey: Guid(152485d209f4d0c409100ffa175cd16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_6.asset using Guid(152485d209f4d0c409100ffa175cd16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7a9cab038d92e6d2158d1117ad52bf') in 0.001442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002642 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_7.asset
+  artifactKey: Guid(31cebc25acd918d48a5739e67c5baaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_7.asset using Guid(31cebc25acd918d48a5739e67c5baaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8251e6ca1c24ce4f38512da241d87724') in 0.001337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002789 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_8.asset
+  artifactKey: Guid(cc0bdbbbb84bdbd419563a68fc50da02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_8.asset using Guid(cc0bdbbbb84bdbd419563a68fc50da02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679a71590da497e28d295fa71cb6362e') in 0.002106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001989 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_9.asset
+  artifactKey: Guid(90db01b1439e40a40bd717466e950339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_9.asset using Guid(90db01b1439e40a40bd717466e950339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e672d5d7a132a574f134a6323fef8b') in 0.001304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002696 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_10.asset
+  artifactKey: Guid(4a961e9350e05524bb37b51374e6aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_10.asset using Guid(4a961e9350e05524bb37b51374e6aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f66343e620e972baffd6d0dc113ab5') in 0.001404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002781 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_11.asset
+  artifactKey: Guid(69b25fb4e70643a44b7951e79f61bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_11.asset using Guid(69b25fb4e70643a44b7951e79f61bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1530256c5a6cf0d47eb7ae34eed6df7e') in 0.001509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002696 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_12.asset
+  artifactKey: Guid(c1c14054985c3c248a311514d9542937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_12.asset using Guid(c1c14054985c3c248a311514d9542937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a30a8783b62eefde4a23355358a1376') in 0.001342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002785 seconds.
+  path: Assets/tutorial/scenario/palettes/outsideWalls_13.asset
+  artifactKey: Guid(0dd21af2b99fc264b97466a443cf6706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/outsideWalls_13.asset using Guid(0dd21af2b99fc264b97466a443cf6706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a6ba4c8d94080323b4747e25853a62') in 0.001179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002775 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial.prefab
+  artifactKey: Guid(e64275b56138a5749b3f6b5d286d42bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial.prefab using Guid(e64275b56138a5749b3f6b5d286d42bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d67281a088be53e6d2097e9a26b6b7d') in 0.012915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.001412 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_3.asset
+  artifactKey: Guid(670c9599d8f40074195a2138f0924139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_3.asset using Guid(670c9599d8f40074195a2138f0924139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab218750bbc1cac4e679cadf03d0e23') in 0.001670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001780 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_4.asset
+  artifactKey: Guid(f75e0b12f7bcc9c4d974dfc283ccb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_4.asset using Guid(f75e0b12f7bcc9c4d974dfc283ccb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8066b19f874df8fcc2d77eba1a3157') in 0.001532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001484 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_5.asset
+  artifactKey: Guid(6dd94c867753d474981550af15b4a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_5.asset using Guid(6dd94c867753d474981550af15b4a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd35d83116ae68f76eccd16260c0866c') in 0.001359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001560 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_6.asset
+  artifactKey: Guid(815f9eb8f01f3e947a743dab2187ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_6.asset using Guid(815f9eb8f01f3e947a743dab2187ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6c6f932557d86079ce558b1456a8be') in 0.001398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001554 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_7.asset
+  artifactKey: Guid(3ad0f38e23ec8c742923bef606585d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_7.asset using Guid(3ad0f38e23ec8c742923bef606585d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe0af8c91219526e62e35c68eef5eeb') in 0.001364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001641 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_8.asset
+  artifactKey: Guid(339b36ea694e3464cbcd7d43d95921a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_8.asset using Guid(339b36ea694e3464cbcd7d43d95921a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15093393fcb4a4421b2237cd6793b232') in 0.001388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001703 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_9.asset
+  artifactKey: Guid(1dfd4f38cd5356c4c89057db722bc6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_9.asset using Guid(1dfd4f38cd5356c4c89057db722bc6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676e83b2add1c93787da91d3c35e458b') in 0.001512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001512 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_10.asset
+  artifactKey: Guid(2c567a93f688711498b164f653145a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_10.asset using Guid(2c567a93f688711498b164f653145a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743b7758fec37e67d92d9e136dab20a4') in 0.001376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001664 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_11.asset
+  artifactKey: Guid(3da577982749b3846972e09d2709ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_11.asset using Guid(3da577982749b3846972e09d2709ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbf60eea96d4a46ae8aac0ef03e9bd3') in 0.001399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001642 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_12.asset
+  artifactKey: Guid(e58b63d73547976498d31b086b06c7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_12.asset using Guid(e58b63d73547976498d31b086b06c7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2184ef1eac8c96b0e553e88e345c42a') in 0.001303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001532 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_13.asset
+  artifactKey: Guid(727d89a55bc925e4a92b30fa0bab9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_13.asset using Guid(727d89a55bc925e4a92b30fa0bab9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590a4f1f182e7480c02b1ef8388070b0') in 0.001420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (196.4 KB). Loaded Objects now: 4623.
+Memory consumption went from 80.8 MB to 80.7 MB.
+Total: 5.303500 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.109500 ms MarkObjects: 4.779900 ms  DeleteObjects: 0.158300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.106880 seconds.
+  path: Assets/Scenes/insideSchool.unity
+  artifactKey: Guid(c6b1b1dec98658c43b40ac2d1c7dfd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/insideSchool.unity using Guid(c6b1b1dec98658c43b40ac2d1c7dfd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58dc081c89ded020da288a703447d51') in 0.000426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.939360 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen.png
+  artifactKey: Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen.png using Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97af150ce9d67e24c744860811f1c95') in 0.015212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 107.846843 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen.png
+  artifactKey: Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen.png using Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1754fd8ab29608cca505f2a7a3c7eea0') in 0.015596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.289563 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen.png
+  artifactKey: Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen.png using Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bfa0dc9fd5b4d3ed2ba8dfc42a5b86') in 0.008858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.013240 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen.png
+  artifactKey: Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen.png using Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a97f705aa013a960c7c9114c59a032') in 0.018200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.115457 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen.png
+  artifactKey: Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen.png using Guid(a8542bab465622b46a60a46ab7e0a736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a94c55eb23c725b3a46872e3f01ce2e') in 0.019581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.844680 seconds.
+  path: Assets/Scenes/tutorial.unity
+  artifactKey: Guid(f0a541074015ad142bd491c6ebce7e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tutorial.unity using Guid(f0a541074015ad142bd491c6ebce7e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988d32678225872e1e2994dac3eab8b4') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.878990 seconds.
+  path: Assets/Scenes/highschoolOutside.unity
+  artifactKey: Guid(334b5b60f25209246bb8c7d243e77177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/highschoolOutside.unity using Guid(334b5b60f25209246bb8c7d243e77177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97bf1dbd85c192b629c1dadb1105872') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 94.093756 seconds.
+  path: Assets/tutorial/characters/teacherPatricia/patriciaIdle.png
+  artifactKey: Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia/patriciaIdle.png using Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701af642379bd1c23370a381bb80b218') in 0.015163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.808086 seconds.
+  path: Assets/tutorial/characters/teacherPatricia/patriciaIdle.png
+  artifactKey: Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia/patriciaIdle.png using Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96cdf44cd1b7c6934f5d6716ccea3c9') in 0.009589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.923989 seconds.
+  path: Assets/tutorial/characters/teacherPatricia/patriciaIdle.png
+  artifactKey: Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia/patriciaIdle.png using Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb554d2b2757c85793b8c5c1ea8e2b1') in 0.014851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.495554 seconds.
+  path: Assets/tutorial/characters/teacherPatricia/patriciaIdle.png
+  artifactKey: Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia/patriciaIdle.png using Guid(f0fd46956cf7d974d83bdc701bf0644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d556011b5ab7865717de93d9392867c') in 0.019788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 69.367279 seconds.
+  path: Assets/tutorial/characters/teacherBreen
+  artifactKey: Guid(74a8ad896b2c98a42a46460453c08ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen using Guid(74a8ad896b2c98a42a46460453c08ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e4c0774f15e3bb7230d7dcf33ffa9d') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 116.605876 seconds.
+  path: Assets/tutorial/characters/playerLuna/healthBar.png
+  artifactKey: Guid(24b0ec1e80b5a0e4996715fb9e4ab7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/healthBar.png using Guid(24b0ec1e80b5a0e4996715fb9e4ab7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ec6e1fdd199a200901cd19f46d9f22') in 0.015940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 29.885236 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaUI.png
+  artifactKey: Guid(23bd43c8fe1812544b3a489688e4b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaUI.png using Guid(23bd43c8fe1812544b3a489688e4b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bdd96eb985b6cc51788e7a1d777077') in 0.015044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.050156 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaUI.png
+  artifactKey: Guid(23bd43c8fe1812544b3a489688e4b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaUI.png using Guid(23bd43c8fe1812544b3a489688e4b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2178abeb9c7525ba00c770aa93ff8df0') in 0.019430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.431 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.813 seconds
+Domain Reload Profiling: 10241ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (1228ms)
+		LoadAssemblies (1283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (8814ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (416ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4631.
+Memory consumption went from 143.6 MB to 143.4 MB.
+Total: 3.504500 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.216600 ms MarkObjects: 2.872700 ms  DeleteObjects: 0.155400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.722758 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaUI.controller
+  artifactKey: Guid(2e4e3c678d0fa364fb70aea2fa8791ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaUI.controller using Guid(2e4e3c678d0fa364fb70aea2fa8791ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c749fa054abd87b4a680d9b558866bc') in 0.012678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.429 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.148 seconds
+Domain Reload Profiling: 1574ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (609ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.1 KB). Loaded Objects now: 4635.
+Memory consumption went from 143.6 MB to 143.4 MB.
+Total: 4.285400 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.103400 ms MarkObjects: 3.691600 ms  DeleteObjects: 0.233100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.061653 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking1.png
+  artifactKey: Guid(70a615bdf86e0a949a809d6d7bf215a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking1.png using Guid(70a615bdf86e0a949a809d6d7bf215a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62508dab7e1a6e53fe5b3bec18b4ac16') in 0.039452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.083929 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking1.png
+  artifactKey: Guid(70a615bdf86e0a949a809d6d7bf215a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking1.png using Guid(70a615bdf86e0a949a809d6d7bf215a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643255c22ed248e784223d48f741582e') in 0.015193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.011543 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking1.png
+  artifactKey: Guid(70a615bdf86e0a949a809d6d7bf215a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking1.png using Guid(70a615bdf86e0a949a809d6d7bf215a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0069d059da466501b0a237903adfa65e') in 0.030529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 17.150619 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking2.png
+  artifactKey: Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking2.png using Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c854fbb7d882c9f320f6df97c421330e') in 0.017210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.088074 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking2.png
+  artifactKey: Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking2.png using Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a224f0de1f318ba38568db9d865402') in 0.014736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.275573 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking2.png
+  artifactKey: Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking2.png using Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4fbc27d6580cc6dbd11ca1edcc36bb') in 0.008369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.647448 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking2.png
+  artifactKey: Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking2.png using Guid(73e7ccdf0392c1643b1cde59c77ddcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9835ea95cb98a6d1f65b9258af09a080') in 0.022845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 31.616181 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaJumping.png
+  artifactKey: Guid(24ac81a4ed1bbc946991b945d268c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaJumping.png using Guid(24ac81a4ed1bbc946991b945d268c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee9ead73ca6cfb84a9cf2500268e0cb') in 0.017290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.354004 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaJumping.png
+  artifactKey: Guid(24ac81a4ed1bbc946991b945d268c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaJumping.png using Guid(24ac81a4ed1bbc946991b945d268c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ef3a93b14d883949c543e6742b62b2') in 0.016734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.867704 seconds.
+  path: Assets/tutorial/characters/playerLuna
+  artifactKey: Guid(2e4a6cce3d384ab4882a938b70ad1249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna using Guid(2e4a6cce3d384ab4882a938b70ad1249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878be4d95790a64b83328d0f4c96d379') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.590086 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaUI_0.controller
+  artifactKey: Guid(a62a7c725fc21e244ae8a0ea1d537043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaUI_0.controller using Guid(a62a7c725fc21e244ae8a0ea1d537043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abbf238bdc1639367c69ebb8bd14fff') in 0.001891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.110081 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaController.controller
+  artifactKey: Guid(5d12afde5249fb146a9caff7e6fcb6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaController.controller using Guid(5d12afde5249fb146a9caff7e6fcb6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c04f3ba127bd39fe15e974a841da512') in 0.018726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 2.022335 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking2_0.controller
+  artifactKey: Guid(e1d343733c676c54ead8000e099bbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking2_0.controller using Guid(e1d343733c676c54ead8000e099bbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6669a2e50ee85a19dc3892c3b0f55c') in 0.001163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.754491 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaAttacking1_0.controller
+  artifactKey: Guid(7f605d4423253664fb36d5a6bc741eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaAttacking1_0.controller using Guid(7f605d4423253664fb36d5a6bc741eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35490446e5054ca3364c2d41d942f25c') in 0.001195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.594322 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.controller
+  artifactKey: Guid(dbc915cfc56fea249ac6fd6e3d1b70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.controller using Guid(dbc915cfc56fea249ac6fd6e3d1b70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1926b8223b52a693845de47f47b9fa01') in 0.005779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.610049 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.anim
+  artifactKey: Guid(f63704b59c2b78549b36a2eecd30e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.anim using Guid(f63704b59c2b78549b36a2eecd30e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c456b7c0f98dd9dd48ed429050d916') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.586784 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.png
+  artifactKey: Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.png using Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2b413d8431d28e74d215443ccba315') in 0.017034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.995277 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.png
+  artifactKey: Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.png using Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9443b559438a17386d870d3c41fe4603') in 0.011351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.147892 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.png
+  artifactKey: Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.png using Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed4dc585b1e670f2af495ac50ca44a9') in 0.017082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.714945 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.png
+  artifactKey: Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.png using Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c151741e2d580622099d457271626df') in 0.015271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.987184 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.png
+  artifactKey: Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.png using Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a89442447f4b2d56c5f00133dea4dea') in 0.021423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 12.128041 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite_0.controller
+  artifactKey: Guid(94df57a63d129d74ea1e292e9f588dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite_0.controller using Guid(94df57a63d129d74ea1e292e9f588dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b46627e77e87bdd759e8b919bd0b1f0') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.004184 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaIdle.png
+  artifactKey: Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaIdle.png using Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1540f030bc029dbc7ffd506539ea90e') in 0.015927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.860775 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaIdle.png
+  artifactKey: Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaIdle.png using Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7975f0394a698041aff477a2b24394f4') in 0.038099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 7.444701 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaIdle.png
+  artifactKey: Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaIdle.png using Guid(1e3275c83c203e4499bfec6edb522d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f4faa76cf654becc341da2e2414554') in 0.038296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 9.978537 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaIdle_0.controller
+  artifactKey: Guid(ee06e1274ea5e74408a18abae98e66d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaIdle_0.controller using Guid(ee06e1274ea5e74408a18abae98e66d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eb1c711e5381d8d9f47f2e7184825d') in 0.000816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.193471 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaFalling.png
+  artifactKey: Guid(1a3f5d19105b42745b899cc2249e9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaFalling.png using Guid(1a3f5d19105b42745b899cc2249e9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3706ad7d662c1d3450c389fb31a2a6') in 0.015430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.195040 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaFalling.png
+  artifactKey: Guid(1a3f5d19105b42745b899cc2249e9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaFalling.png using Guid(1a3f5d19105b42745b899cc2249e9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b548f0d22734537b4557e434c0454e') in 0.014317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.366434 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaFalling.png
+  artifactKey: Guid(1a3f5d19105b42745b899cc2249e9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaFalling.png using Guid(1a3f5d19105b42745b899cc2249e9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dc23f00d74baa578633f553dfde424') in 0.016773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.212300 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaFalling_0.controller
+  artifactKey: Guid(4f44609d4335bcd4bbb371836477f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaFalling_0.controller using Guid(4f44609d4335bcd4bbb371836477f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09fba1b913c38ecd4d52dcccf707573') in 0.000935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.235278 seconds.
+  path: Assets/tutorial/characters/playerLuna/Materials
+  artifactKey: Guid(523deeb542acb5547beceadd8eb717a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/Materials using Guid(523deeb542acb5547beceadd8eb717a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609b4a2b21c9f8dd8108d933bc5a03d2') in 0.000433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024503 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaWalking.png
+  artifactKey: Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaWalking.png using Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219f77a4306ebf81080b6f895e64616f') in 0.015956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.835732 seconds.
+  path: Assets/tutorial/characters/playerLuna/Materials/lunaUI.mat
+  artifactKey: Guid(150f466eb8526ec4c8c72b2d501f3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/Materials/lunaUI.mat using Guid(150f466eb8526ec4c8c72b2d501f3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee1d93b75b815fbe54c42bdf5645c3d') in 0.030423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.190771 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaWalking.png
+  artifactKey: Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaWalking.png using Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4d878748ad5aa7b264283cdee4e5cc') in 0.015818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.949552 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaWalking.png
+  artifactKey: Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaWalking.png using Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b581e83e2979a0c201fc071a370b05') in 0.014924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.218894 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaWalking.png
+  artifactKey: Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaWalking.png using Guid(be85a262a3d2ea349b88663aa74b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9595d80396e06511239e21bd80b593ac') in 0.022746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.064303 seconds.
+  path: Assets/tutorial/characters/playerLuna/meleeSystem.cs
+  artifactKey: Guid(b436c3007917c38418477a7c8e0aeaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/meleeSystem.cs using Guid(b436c3007917c38418477a7c8e0aeaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de11b89b3d66c9cce74a48f0a4304533') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.665395 seconds.
+  path: Assets/tutorial/characters/playerLuna/lunaWalking_0.controller
+  artifactKey: Guid(d0c72538e28d0e04da8bb393e35bdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/lunaWalking_0.controller using Guid(d0c72538e28d0e04da8bb393e35bdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c6617ea2dbb840696a03d24d2278e5') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.164 seconds
+Domain Reload Profiling: 1619ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1164ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.2 KB). Loaded Objects now: 4675.
+Memory consumption went from 143.9 MB to 143.7 MB.
+Total: 4.279600 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.219600 ms MarkObjects: 3.554600 ms  DeleteObjects: 0.180600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.831300 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.png
+  artifactKey: Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.png using Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871a58e80aeb4359d5f7e80f43377527') in 0.052178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.998290 seconds.
+  path: Assets/tutorial/characters/playerLuna/hitSprite.png
+  artifactKey: Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/playerLuna/hitSprite.png using Guid(ea5a2405a32282e40af717f0ce4e90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe026df2d5b0c807387d4003f72919b3') in 0.016128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 26.197757 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen.controller
+  artifactKey: Guid(ee7b255c360e33a4fae2020e05130547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen.controller using Guid(ee7b255c360e33a4fae2020e05130547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf76aa631217f9b88df6b18c364cb48a') in 0.001803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.506167 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen.anim
+  artifactKey: Guid(debc2d2382b85a548a9cab4153c79eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen.anim using Guid(debc2d2382b85a548a9cab4153c79eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7149b3183b5bed9e2e081ab08920b804') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.402040 seconds.
+  path: Assets/tutorial/characters/teacherBreen/breen_0.controller
+  artifactKey: Guid(0948449e9329c7b41867b4a9b3b92a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherBreen/breen_0.controller using Guid(0948449e9329c7b41867b4a9b3b92a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f81019db9cd38e463feabb8850ab16') in 0.001143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 5.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.198 seconds
+Domain Reload Profiling: 1627ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (648ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.1 KB). Loaded Objects now: 4679.
+Memory consumption went from 143.9 MB to 143.7 MB.
+Total: 4.185000 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.127900 ms MarkObjects: 3.400200 ms  DeleteObjects: 0.331600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.923439 seconds.
+  path: Assets/tutorial/characters/teacherPatricia
+  artifactKey: Guid(eff87ec0a4865b84e95c537ba00c45b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia using Guid(eff87ec0a4865b84e95c537ba00c45b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847b19c4aaa7b903f66017e0d662a270') in 0.004423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.358343 seconds.
+  path: Assets/tutorial/characters/teacherPatricia/patriciaIdle_0.controller
+  artifactKey: Guid(08a8f6d0d11b9374e92d29d254d2f2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/characters/teacherPatricia/patriciaIdle_0.controller using Guid(08a8f6d0d11b9374e92d29d254d2f2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ac60d26b3b25edd144ee9d72731caf') in 0.007188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.096 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1097ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (555ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.1 KB). Loaded Objects now: 4683.
+Memory consumption went from 143.9 MB to 143.7 MB.
+Total: 3.305100 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.117000 ms MarkObjects: 2.747300 ms  DeleteObjects: 0.175400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.027095 seconds.
+  path: Assets/tutorial/scenario/background.png
+  artifactKey: Guid(76492c74988acf64fb6474aa28a5ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/background.png using Guid(76492c74988acf64fb6474aa28a5ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7504ea8b62c51ea37d50679fb58cbcfc') in 0.055001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.162125 seconds.
+  path: Assets/tutorial/scenario/tutorial.png
+  artifactKey: Guid(3a57a7e93b808bb4a9eb1f8cc670e11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/tutorial.png using Guid(3a57a7e93b808bb4a9eb1f8cc670e11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98b99828a68d3fe9edbf7962456c803') in 0.015429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.612755 seconds.
+  path: Assets/tutorial/scenario/tutorial.png
+  artifactKey: Guid(3a57a7e93b808bb4a9eb1f8cc670e11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/tutorial.png using Guid(3a57a7e93b808bb4a9eb1f8cc670e11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e2d587d53865d6a0b3f50e2e924644') in 0.033154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 31.578518 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial.prefab
+  artifactKey: Guid(e64275b56138a5749b3f6b5d286d42bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial.prefab using Guid(e64275b56138a5749b3f6b5d286d42bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7071436ec8639dee6d2a9905c1e62f2') in 0.028904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_2.asset
+  artifactKey: Guid(aa89184bdbdb620478c62e7e38fbc2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_2.asset using Guid(aa89184bdbdb620478c62e7e38fbc2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9089ff6b3cddd984e95b24cf934516') in 0.016960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001223 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_3.asset
+  artifactKey: Guid(670c9599d8f40074195a2138f0924139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_3.asset using Guid(670c9599d8f40074195a2138f0924139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b4b5adb548f7f10994692db7adfe01') in 0.014480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_8.asset
+  artifactKey: Guid(339b36ea694e3464cbcd7d43d95921a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_8.asset using Guid(339b36ea694e3464cbcd7d43d95921a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db229eb1d2b8ac8ccd5f626d4246e53f') in 0.018566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_10.asset
+  artifactKey: Guid(2c567a93f688711498b164f653145a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_10.asset using Guid(2c567a93f688711498b164f653145a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaf93ac256e99551498c26e368b62b7') in 0.015546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_6.asset
+  artifactKey: Guid(815f9eb8f01f3e947a743dab2187ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_6.asset using Guid(815f9eb8f01f3e947a743dab2187ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edd830b4c369bfb26c7ba1d34665c52') in 0.017839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_4.asset
+  artifactKey: Guid(f75e0b12f7bcc9c4d974dfc283ccb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_4.asset using Guid(f75e0b12f7bcc9c4d974dfc283ccb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ecf731e1ab63d996a4a7ba54769425') in 0.013316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/tutorial/scenario/palettes/tutorial_7.asset
+  artifactKey: Guid(3ad0f38e23ec8c742923bef606585d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial/scenario/palettes/tutorial_7.asset using Guid(3ad0f38e23ec8c742923bef606585d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea8baf131ca0b4dab1556cb9197f812') in 0.013842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

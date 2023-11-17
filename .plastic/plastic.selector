@@ -1,0 +1,4 @@
+repository "STOS@VenturaGames@cloud"
+  path "/"
+    br "/main"
+    co "/main"
